@@ -32,7 +32,8 @@ public class PersonRoleType extends GenericParameter {
 	public static final String UMPIRE_ONE="UMPIRE_ONE";
 	public static final String UMPIRE_TWO="UMPIRE_TWO";
 	public static final String UMPIRE_THREE="UMPIRE_THREE";
-	public static final String REFFREE="REFFREE";
+	public static final String UMPIRE_FOUR="UMPIRE_FOUR";
+	public static final String REFEREE="REFEREE";
 	public static final String COMMENTATOR="COMMENTATOR";
 	public static final String PLAYER="PLAYER";
 //	responsible for fetching the ball after it has been hit beyond boundary

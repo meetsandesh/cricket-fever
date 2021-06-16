@@ -5,6 +5,8 @@
 package com.nucleus.cricket.fever.entity.transactional;
 
 import javax.persistence.Entity;
+
+import com.nucleus.cricket.fever.entity.dtype.CoinSideType;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -20,5 +22,7 @@ import lombok.experimental.FieldNameConstants;
 @ToString
 @FieldNameConstants
 public class TossResult extends TransactionalEntity {
-	
+
+	private CoinSideType result;
+
 }

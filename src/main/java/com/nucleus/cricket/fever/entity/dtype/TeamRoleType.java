@@ -32,6 +32,10 @@ public class TeamRoleType extends GenericParameter {
 	public static final String BATTING_COACH="BATTING_COACH";
 //	responsible for coaching in balling area
 	public static final String BALLING_COACH="BALLING_COACH";
+//	responsible for coaching in fielding area
+	public static final String FIELDING_COACH="FIELDING_COACH";
+	public static final String CAPTAIN="FIELDING_COACH";
+	public static final String VICE_CAPTAIN="FIELDING_COACH";
 	public static final String BATSMAN="BATSMAN";
 	public static final String BALLER="BALLER";
 	public static final String WICKETKEEPER="WICKETKEEPER";

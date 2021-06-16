@@ -27,7 +27,8 @@ public class BattingResultType extends GenericParameter {
 	
 	public static final String D_TYPE="BattingResultType"; 
 	
-	public static final String DOT_BALL="INTER_INNING";
+	public static final String DISMISSED="DISMISSED";
+	public static final String DOT_BALL="DOT_BALL";
 	public static final String SINGLE="SINGLE";
 	public static final String DOUBLE="DOUBLE";
 	public static final String TRIPLE="TRIPLE";

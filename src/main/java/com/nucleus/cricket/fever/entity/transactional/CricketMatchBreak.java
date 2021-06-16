@@ -5,10 +5,14 @@
 package com.nucleus.cricket.fever.entity.transactional;
 
 import javax.persistence.Entity;
+
+import com.nucleus.cricket.fever.entity.dtype.BreakType;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 import lombok.experimental.FieldNameConstants;
+
+import java.util.Date;
 
 /**
  *
@@ -20,5 +24,9 @@ import lombok.experimental.FieldNameConstants;
 @ToString
 @FieldNameConstants
 public class CricketMatchBreak extends TransactionalEntity {
-	
+
+	private BreakType breakType;
+	private Date startAt;
+	private Date endAt;
+
 }

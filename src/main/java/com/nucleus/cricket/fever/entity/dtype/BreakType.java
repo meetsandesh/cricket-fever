@@ -30,7 +30,7 @@ public class BreakType extends GenericParameter {
 	public static final String INTER_INNING="INTER_INNING";
 	public static final String LUNCH="LUNCH";
 	public static final String SNACKS="SNACKS";
-	public static final String WEATHER_INTTERUPTION="WEATHER_INTTERUPTION";
+	public static final String WEATHER_INTERRUPTION ="WEATHER_INTERRUPTION";
 	public static final String MISHAPPENING="MISHAPPENING";
 	
 }

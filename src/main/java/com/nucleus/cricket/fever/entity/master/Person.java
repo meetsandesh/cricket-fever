@@ -4,23 +4,32 @@
  */
 package com.nucleus.cricket.fever.entity.master;
 
-import javax.persistence.Cacheable;
-import javax.persistence.Entity;
+import javax.persistence.*;
+
+import com.nucleus.cricket.fever.entity.dtype.PersonRoleType;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 import lombok.experimental.FieldNameConstants;
 
+import java.util.List;
+
 /**
  *
  * @author sandesh.singh
  */
-@Entity
+@MappedSuperclass
 @Getter
 @Setter
 @ToString
 @FieldNameConstants
-@Cacheable
 public class Person extends MasterEntity {
-	
+
+	@ManyToOne
+	private Country nationality;
+	@ManyToOne
+	private PersonRoleType personRoleType;
+	@ManyToMany
+	private List<Language> languageSpoken;
+
 }

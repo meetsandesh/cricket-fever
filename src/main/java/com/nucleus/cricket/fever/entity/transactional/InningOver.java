@@ -5,10 +5,14 @@
 package com.nucleus.cricket.fever.entity.transactional;
 
 import javax.persistence.Entity;
+
+import com.nucleus.cricket.fever.entity.master.Player;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 import lombok.experimental.FieldNameConstants;
+
+import java.util.List;
 
 /**
  *
@@ -20,5 +24,8 @@ import lombok.experimental.FieldNameConstants;
 @ToString
 @FieldNameConstants
 public class InningOver extends TransactionalEntity {
-	
+
+	private List<Delivery> deliveries;
+	private Player balledBy;
+
 }

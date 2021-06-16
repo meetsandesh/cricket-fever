@@ -39,6 +39,11 @@ public class Tournament extends TransactionalEntity {
 	private List<CricketMatch> matches;
 	@ManyToMany
 	private List<Team> teams;
+
+	private List<TeamRank> teamRanks;
+	private List<PlayerRank> battingRanks;
+	private List<TeamRank> ballingRanks;
+
 	
 	
 }

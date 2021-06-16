@@ -20,5 +20,10 @@ import lombok.experimental.FieldNameConstants;
 @ToString
 @FieldNameConstants
 public class CricketMatchActivityLog extends TransactionalEntity {
-	
+
+//	no idea what to put here
+
+//	a string containing description
+//	or live entity interaction
+
 }
